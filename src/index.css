@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b1f2a;
+  --color-surface: #122a38;
+  --color-surface-raised: #1a3648;
+  --color-text: #eef4f7;
+  --color-muted: #8aa0ad;
+  --color-accent: #14b8a6;
+  --color-accent-text: #06201c;
+  --color-success: #3fae7a;
+  --color-danger: #e2685f;
+  --color-border: #243f52;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.facet-clip {
+  clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%);
+}

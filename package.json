@@ -1,22 +1,25 @@
 {
-  "name": "VAULT24",
+  "name": "vault24-bank",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "vike dev",
-    "build": "vike build",
-    "preview": "vike build && vike preview"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "vike": "^0.4.267",
-    "vike-react": "^0.6.29"
+    "react-router-dom": "^7.9.4"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.1.14",
     "typescript": "^6.0.3",
     "vite": "^8.3.4"
-  },
-  "type": "module"
+  }
 }
