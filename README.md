@@ -1,8 +1,7 @@
 # Vault24 Bank
 
-Frontend-only fictional banking prototype for a cybersecurity hackathon.
+Frontend banking prototype for a axis codebase cybersecurity hackathon.
 
-See [FRONTEND_README.md](./FRONTEND_README.md) for pages, API contract, demo accounts, and how to run with mock or a real backend.
 
 ```bash
 npm install
